@@ -64,19 +64,19 @@ public struct Trakt {
 }
 
 public struct PopcornShows {
-    static let base = "https://tv-v2.api-fetch.sh"
+    static let base = "https://popcorn-ru.tk"
     static let shows = "/shows"
     static let show = "/show"
 }
 
 public struct PopcornMovies {
-    static let base = "https://movies-v2.api-fetch.sh"
+    static let base = "https://popcorn-ru.tk"
     static let movies = "/movies"
     static let movie = "/movie"
 }
 
 public struct TMDB {
-    static let apiKey = "739eed14bc18a1d6f5dacd1ce6c2b29e"
+    static let apiKey = "cfe422613b250f702980a3bbf9e90716"//"739eed14bc18a1d6f5dacd1ce6c2b29e"
     static let base = "https://api.themoviedb.org/3"
     static let tv = "/tv"
     static let person = "/person"
@@ -93,7 +93,7 @@ public struct TMDB {
 }
 
 public struct Fanart {
-    static let apiKey = "bd2753f04538b01479e39e695308b921"
+    static let apiKey = "8104b601679c3ec23e7d3e4d93ddb46f"//"bd2753f04538b01479e39e695308b921"
     static let base = "http://webservice.fanart.tv/v3"
     static let tv = "/tv"
     static let movies = "/movies"

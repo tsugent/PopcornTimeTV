@@ -82,4 +82,3 @@ class ServiceProvider: NSObject, TVTopShelfProvider {
     }
 
 }
-

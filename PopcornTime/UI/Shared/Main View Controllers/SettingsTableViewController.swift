@@ -338,7 +338,7 @@ class SettingsTableViewController: UITableViewController, TraktManagerDelegate {
                             alert.addAction(UIAlertAction(title: "OK".localized, style: .default, handler: nil))
                             self?.present(alert, animated: true)
                         }
-                        tableView.reloadData() 
+                        tableView.reloadData()
                     }
                 }
             }
