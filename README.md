@@ -2,7 +2,7 @@
   <img src="http://i.imgur.com/76RElTT.png" alt="Popcorn Time" title="Popcorn Time">
 </p>
 
-## Popcorn Time for tvOS 14.6 and iOS 14.6 _WE ARE BACK_
+## Popcorn Time for tvOS 16.2 and iOS 16.1 _WE ARE BACK_
 
 [![Platform](http://img.shields.io/badge/platform-iOS%20%7C%20tvOS-lightgrey.svg?style=flat)](https://github.com/PopcornTimeTV)
 [![Build Status](https://travis-ci.org/PopcornTimeTV/PopcornTimeTV.svg?branch=master)](https://travis-ci.org/PopcornTimeTV/PopcornTimeTV)
