@@ -64,13 +64,13 @@ public struct Trakt {
 }
 
 public struct PopcornShows {
-    static let base = "https://popcorn-time.ga"
+    static let base = "https://movies-api.tk"
     static let shows = "/shows"
     static let show = "/show"
 }
 
 public struct PopcornMovies {
-    static let base = "https://popcorn-time.ga"
+    static let base = "https://movies-api.tk"
     static let movies = "/movies"
     static let movie = "/movie"
 }

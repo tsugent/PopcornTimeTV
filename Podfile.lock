@@ -20,7 +20,7 @@ PODS:
   - Locksmith (4.0.0)
   - MarqueeLabel (4.0.2)
   - MBCircularProgressBar (0.3.5)
-  - MobileVLCKit (3.3.13)
+  - MobileVLCKit (3.3.14)
   - ObjectMapper (3.5.3)
   - OBSlider (1.1.1)
   - PopcornTorrent (1.3.15):
@@ -30,7 +30,7 @@ PODS:
   - SwiftyJSON (5.0.0)
   - SwiftyTimer (2.1.0)
   - TvOSMoreButton (1.2.3)
-  - TVVLCKit (3.3.13)
+  - TVVLCKit (3.3.14)
   - XCDYouTubeKit (2.8.3)
 
 DEPENDENCIES:
@@ -43,7 +43,7 @@ DEPENDENCIES:
   - Locksmith (~> 4.0.0)
   - MarqueeLabel (~> 4.0.0)
   - MBCircularProgressBar (~> 0.3.5-1)
-  - MobileVLCKit (~> 3.3.0)
+  - MobileVLCKit (= 3.3.14)
   - ObjectMapper (~> 3.5.0)
   - OBSlider (~> 1.1.1)
   - PopcornTorrent (~> 1.3.0)
@@ -51,11 +51,11 @@ DEPENDENCIES:
   - SwiftyJSON (~> 5.0.0)
   - SwiftyTimer (~> 2.1.0)
   - TvOSMoreButton (~> 1.2.0)
-  - TVVLCKit (~> 3.3.0)
+  - TVVLCKit (= 3.3.14)
   - XCDYouTubeKit (~> 2.8.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs:
+  https://github.com/cocoapods/specs.git:
     - 1PasswordExtension
     - Alamofire
     - AlamofireImage
@@ -100,7 +100,7 @@ SPEC CHECKSUMS:
   Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
   MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
   MBCircularProgressBar: 29e6df5e8683ff2375a291792a5988a16dd78c8e
-  MobileVLCKit: 92e1ea43124259417f481c890821efb2399d25e3
+  MobileVLCKit: 7f5065858eb9c29a91743c3554654d2e81b85db2
   ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
   OBSlider: 38853ebbb9cc6978a9b7ddc0d4f525588e8bb294
   PopcornTorrent: 343ff0e04ba370764a9cf27c35685463f7428b90
@@ -109,9 +109,9 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   SwiftyTimer: 02dd6cf10cbc71cbf67cec494f6e5eb782102543
   TvOSMoreButton: 41fab9ceec49f0806e822ed4c78ac0634e16ff4e
-  TVVLCKit: 33c0e6221b7ea312ae35703cd898b3b610aa4e0d
+  TVVLCKit: aa7c0f34d6ae19e33838c3dcad594578364fd513
   XCDYouTubeKit: 46df93c4dc4d48763ad720d997704384635c4335
 
-PODFILE CHECKSUM: 6288107712aa40e9b0b0537ed4c64cb0a7405345
+PODFILE CHECKSUM: 532d456d5dd9104fe19ddb10434b4ecf7353ac0f
 
 COCOAPODS: 1.5.3
