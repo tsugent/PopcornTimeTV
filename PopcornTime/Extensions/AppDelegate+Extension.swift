@@ -21,7 +21,10 @@ extension AppDelegate: PCTPlayerViewControllerDelegate, UIViewControllerTransiti
             } else {
                 let alertController = UIAlertController(title: "No torrents found".localized, message: "Torrents could not be found for the specified media.".localized, preferredStyle: .alert)
                 alertController.addAction(UIAlertAction(title: "OK".localized, style: .default, handler: nil))
-                alertController.show(animated: true)
+                if let presentingViewController = AppDelegate.shared.activeViewController {
+                            presentingViewController.present(alertController, animated: true, completion: nil)
+                        }
+//                alertController.show(animated: true)
             }
             return
         }
@@ -42,7 +45,10 @@ extension AppDelegate: PCTPlayerViewControllerDelegate, UIViewControllerTransiti
         
         alertController.popoverPresentationController?.sourceView = sender
         
-        alertController.show(animated: true)
+//        alertController.show(animated: true)
+        if let presentingViewController = AppDelegate.shared.activeViewController {
+                    presentingViewController.present(alertController, animated: true, completion: nil)
+                }
     }
     
     func play(_ media: Media, torrent: Torrent) {

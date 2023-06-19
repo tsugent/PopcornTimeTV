@@ -12,7 +12,15 @@ import AlamofireImage
     
     var originalImage: UIImage? {
         didSet {
-            if let image = originalImage?.rounded(to: imageView.bounds.size) {
+            // Set the corner radius of the image view
+            imageView.layer.cornerRadius = imageView.frame.size.width / 2
+            imageView.clipsToBounds = true
+        // Add shadow to the image view
+            imageView.layer.shadowColor = UIColor.black.cgColor
+            imageView.layer.shadowOpacity = 0.5
+            imageView.layer.shadowOffset = CGSize(width: 0, height: 5)
+            imageView.layer.shadowRadius = 4
+            if let image = originalImage {
                 imageView.image = image
                 initialsLabel.isHidden = true
             } else {

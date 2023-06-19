@@ -5,8 +5,8 @@ import PopcornKit
 import PopcornTorrent.PTTorrentDownloadManager
 import MediaPlayer.MPMediaItem
 
-class MainViewController: UIViewController, CollectionViewControllerDelegate {
-    
+class MainViewController: UIViewController, CollectionViewControllerDelegate  {
+
     func load(page: Int) {}
     func collectionView(isEmptyForUnknownReason collectionView: UICollectionView) {}
     func collectionView(_ collectionView: UICollectionView, titleForHeaderInSection section: Int) -> String? { return nil }
@@ -70,6 +70,8 @@ class MainViewController: UIViewController, CollectionViewControllerDelegate {
         collectionView?.updateFocusIfNeeded()
         
         collectionView?.reloadData()
+        load(page: 1)
+        
     }
 
     override dynamic func viewDidLoad() {

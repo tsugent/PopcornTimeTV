@@ -63,14 +63,28 @@ public struct Trakt {
     }
 }
 
+//public struct PopcornShows {
+//    static let base = "https://movies-api.tk"
+//    static let shows = "/shows"
+//    static let show = "/show"
+//}
+//
+//public struct PopcornMovies {
+//    static let base = "https://movies-api.tk"
+//    static let movies = "/movies"
+//    static let movie = "/movie"
+//}
+
+public struct PopcornAPI {
+    static let base = APIManager.getBaseUrl()
+}
+
 public struct PopcornShows {
-    static let base = "https://movies-api.tk"
     static let shows = "/shows"
     static let show = "/show"
 }
 
 public struct PopcornMovies {
-    static let base = "https://movies-api.tk"
     static let movies = "/movies"
     static let movie = "/movie"
 }
