@@ -1883,14 +1883,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Font" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPE-3j-CJL">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Font" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPE-3j-CJL">
                                                     <rect key="frame" x="8" y="10" width="73" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="System" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tTB-eB-9BY">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="System" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tTB-eB-9BY">
                                                     <rect key="frame" x="610" y="10" width="122" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
@@ -1907,15 +1907,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Style" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5WO-YN-RUa">
-                                                    <rect key="frame" x="8" y="10" width="82" height="46"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Style" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5WO-YN-RUa">
+                                                    <rect key="frame" x="30" y="10" width="82" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Normal" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0rw-Qu-Rs6">
-                                                    <rect key="frame" x="613" y="10" width="119" height="46"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Normal" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0rw-Qu-Rs6">
+                                                    <rect key="frame" x="591" y="10" width="119" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
@@ -1931,15 +1931,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Encoding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f8x-Ym-rQl">
-                                                    <rect key="frame" x="8" y="10" width="153" height="46"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Encoding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f8x-Ym-rQl">
+                                                    <rect key="frame" x="30" y="10" width="153" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Windows-1252" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aud-tf-JFq">
-                                                    <rect key="frame" x="481" y="10" width="251" height="46"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Windows-1252" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aud-tf-JFq">
+                                                    <rect key="frame" x="459" y="10" width="251" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
@@ -1952,22 +1952,46 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Services" id="Oi2-SE-DcW">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="fV7-sD-Mxl" detailTextLabel="g7o-mr-G5l" style="IBUITableViewCellStyleValue1" id="qwj-oV-YgU">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="T5b-KZ-XxR" detailTextLabel="CVY-9O-HaP" style="IBUITableViewCellStyleValue1" id="oKA-QH-Mkx">
                                         <rect key="frame" x="100" y="1024.5" width="740" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qwj-oV-YgU" id="S07-eB-z3r">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oKA-QH-Mkx" id="rJM-yo-w7L">
                                             <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Trakt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fV7-sD-Mxl">
-                                                    <rect key="frame" x="8" y="10" width="80" height="46"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Edit API url" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T5b-KZ-XxR">
+                                                    <rect key="frame" x="30" y="10" width="176" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Sign In" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g7o-mr-G5l">
-                                                    <rect key="frame" x="621" y="10" width="111" height="46"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CVY-9O-HaP" userLabel="Label">
+                                                    <rect key="frame" x="616" y="10" width="94" height="46"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="fV7-sD-Mxl" detailTextLabel="g7o-mr-G5l" style="IBUITableViewCellStyleValue1" id="qwj-oV-YgU">
+                                        <rect key="frame" x="100" y="1104.5" width="740" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qwj-oV-YgU" id="S07-eB-z3r">
+                                            <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Trakt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fV7-sD-Mxl">
+                                                    <rect key="frame" x="30" y="10" width="80" height="46"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Sign In" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g7o-mr-G5l">
+                                                    <rect key="frame" x="599" y="10" width="111" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
@@ -1980,22 +2004,46 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Info" id="8bN-Fj-ZwM">
                                 <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="v9S-Vf-HS3" detailTextLabel="zB0-9S-Fpq" style="IBUITableViewCellStyleValue1" id="UMp-rI-qT6">
+                                        <rect key="frame" x="100" y="1297" width="740" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UMp-rI-qT6" id="Myj-wn-dSe">
+                                            <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="API url" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v9S-Vf-HS3">
+                                                    <rect key="frame" x="30" y="10" width="105" height="46"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zB0-9S-Fpq">
+                                                    <rect key="frame" x="616" y="10" width="94" height="46"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="rrQ-1r-aq3" detailTextLabel="JIK-nm-s5r" style="IBUITableViewCellStyleValue1" id="2jx-XN-Qib">
-                                        <rect key="frame" x="100" y="1217" width="740" height="66"/>
+                                        <rect key="frame" x="100" y="1377" width="740" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2jx-XN-Qib" id="WOA-de-ljF">
                                             <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Clear All Cache" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rrQ-1r-aq3">
-                                                    <rect key="frame" x="8" y="10" width="250" height="46"/>
+                                                    <rect key="frame" x="30" y="10" width="250" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JIK-nm-s5r">
-                                                    <rect key="frame" x="638" y="10" width="94" height="46"/>
+                                                    <rect key="frame" x="616" y="10" width="94" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
@@ -2005,21 +2053,21 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="fpb-Vv-rCp" detailTextLabel="hRz-9h-nvi" style="IBUITableViewCellStyleValue1" id="X94-bg-7gt">
-                                        <rect key="frame" x="100" y="1297" width="740" height="66"/>
+                                        <rect key="frame" x="100" y="1457" width="740" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X94-bg-7gt" id="G4x-PN-QWu">
                                             <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Check for Updates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpb-Vv-rCp">
-                                                    <rect key="frame" x="8" y="10" width="303" height="46"/>
+                                                    <rect key="frame" x="30" y="10" width="303" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hRz-9h-nvi">
-                                                    <rect key="frame" x="638" y="10" width="94" height="46"/>
+                                                    <rect key="frame" x="616" y="10" width="94" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                     <nil key="textColor"/>
@@ -2029,7 +2077,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="3rl-cy-Kkl" detailTextLabel="Yqn-vd-AJJ" style="IBUITableViewCellStyleValue1" id="WnD-9g-uzC">
-                                        <rect key="frame" x="100" y="1377" width="740" height="66"/>
+                                        <rect key="frame" x="100" y="1537" width="740" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WnD-9g-uzC" id="FBP-Gv-gjG">
                                             <rect key="frame" x="0.0" y="0.0" width="740" height="66"/>
@@ -3663,11 +3711,32 @@ By using 'Popcorn Time' or accessing this site you affirm that you are either mo
         </scene>
     </scenes>
     <designables>
+        <designable name="5e7-hi-nqc">
+            <size key="intrinsicContentSize" width="142" height="115"/>
+        </designable>
         <designable name="8d1-bm-LhB"/>
+        <designable name="9SM-aI-AHA">
+            <size key="intrinsicContentSize" width="142" height="115"/>
+        </designable>
+        <designable name="KC3-5l-rXZ">
+            <size key="intrinsicContentSize" width="142" height="115"/>
+        </designable>
         <designable name="NGh-td-JUz"/>
         <designable name="Ql8-AW-B2U"/>
+        <designable name="XKH-az-gnC">
+            <size key="intrinsicContentSize" width="142" height="115"/>
+        </designable>
         <designable name="Yvu-BJ-Xzj"/>
+        <designable name="ipT-OZ-c5M">
+            <size key="intrinsicContentSize" width="142" height="115"/>
+        </designable>
+        <designable name="nhD-7v-QlI">
+            <size key="intrinsicContentSize" width="142" height="115"/>
+        </designable>
         <designable name="pIK-Tk-FVv"/>
+        <designable name="th4-V2-ZHU">
+            <size key="intrinsicContentSize" width="142" height="115"/>
+        </designable>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="r7i-sj-JtW"/>
