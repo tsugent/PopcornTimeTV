@@ -3,7 +3,7 @@
 import UIKit
 import struct PopcornKit.Subtitle
 
-protocol SubtitlesViewControllerDelegate: class {
+protocol SubtitlesViewControllerDelegate: AnyObject {
     func didSelectSubtitle(_ subtitle: Subtitle?)
 }
 

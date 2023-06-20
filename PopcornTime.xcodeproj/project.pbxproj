@@ -346,6 +346,8 @@
 		4DFA77201E7317B1007DB0E7 /* TVButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFA771F1E7317B1007DB0E7 /* TVButton.xib */; };
 		4DFC20941EED7B8200016BA2 /* MPMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC20931EED7B8200016BA2 /* MPMediaType.swift */; };
 		4DFC20951EED7B8200016BA2 /* MPMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC20931EED7B8200016BA2 /* MPMediaType.swift */; };
+		C534A71E2A3EA4EB006B8A69 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534A71D2A3EA4EB006B8A69 /* APIManager.swift */; };
+		C534A71F2A3EA4EB006B8A69 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534A71D2A3EA4EB006B8A69 /* APIManager.swift */; };
 		D903FA102030CB1400180DBD /* PCTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903FA0F2030CB1400180DBD /* PCTPlayerViewController.swift */; };
 		D903FA112030CB1400180DBD /* PCTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903FA0F2030CB1400180DBD /* PCTPlayerViewController.swift */; };
 		D903FA122030D06000180DBD /* iOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBCCEF21E6815450066F1A7 /* iOS.storyboard */; };
@@ -756,6 +758,7 @@
 		9C65D6153AF850B397C1F6ED /* Pods-PopcornKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornKit tvOS/Pods-PopcornKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B5E9279D6F843D45303644E3 /* Pods-PopcornKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornKit tvOS/Pods-PopcornKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		BC6206DE29909518F7303456 /* Pods-PopcornKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C534A71D2A3EA4EB006B8A69 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = PopcornKit/Managers/APIManager.swift; sourceTree = SOURCE_ROOT; };
 		CA80370986F9AFED490AD537 /* Pods_PopcornKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D903FA0F2030CB1400180DBD /* PCTPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PCTPlayerViewController.swift; path = "View Controllers/PCTPlayerViewController.swift"; sourceTree = "<group>"; };
 		D90FB5FC20D670B200CD141F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
@@ -1029,6 +1032,7 @@
 				4D0F9CFD1E6F296400860852 /* SubtitlesManager.swift */,
 				4D0F9CFE1E6F296400860852 /* WatchedlistManager.swift */,
 				4D0F9CFF1E6F296400860852 /* TraktManager.swift */,
+				C534A71D2A3EA4EB006B8A69 /* APIManager.swift */,
 				4D0F9D011E6F296400860852 /* UpdateManager.swift */,
 				4D0F9D031E6F296400860852 /* AnimeManager.swift */,
 				4D0F9D041E6F296400860852 /* PopcornKit.swift */,
@@ -2397,6 +2401,7 @@
 				4D15C7EB1EF1D81600953E45 /* MPMediaItemProperty+Extension.swift in Sources */,
 				D95647DE206D8B810027E615 /* SubtitleHashGenerator.swift in Sources */,
 				4D0F9D7A1E6F2EEE00860852 /* UpdateManager.swift in Sources */,
+				C534A71E2A3EA4EB006B8A69 /* APIManager.swift in Sources */,
 				4D0F9D811E6F2EEE00860852 /* ShowManager.swift in Sources */,
 				4D0F9D7D1E6F2EEE00860852 /* PopcornKit.swift in Sources */,
 				4D0F9D741E6F2E0F00860852 /* OAuthCredential.swift in Sources */,
@@ -2450,6 +2455,7 @@
 				4D0F9DC01E6F304B00860852 /* Person.swift in Sources */,
 				D95647DF206D8B820027E615 /* SubtitleHashGenerator.swift in Sources */,
 				4D0F9DBB1E6F304600860852 /* TMDBManager.swift in Sources */,
+				C534A71F2A3EA4EB006B8A69 /* APIManager.swift in Sources */,
 				4D0F9DBA1E6F304600860852 /* ShowManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

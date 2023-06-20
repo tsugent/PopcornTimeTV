@@ -121,6 +121,7 @@ import Foundation
             if isFocused {
                 applyPressUpAppearance()
                 sendActions(for: .primaryActionTriggered)
+
             } else {
                 applyUnfocusedAppearance()
             }

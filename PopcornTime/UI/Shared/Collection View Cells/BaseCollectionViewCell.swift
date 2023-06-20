@@ -44,6 +44,11 @@ import MarqueeLabel
     
     var hidesTitleLabelWhenUnfocused: Bool = false {
         didSet {
+            // Add shadow to the image view
+            imageView.layer.shadowColor = UIColor.black.cgColor
+            imageView.layer.shadowOpacity = 0.5
+            imageView.layer.shadowOffset = CGSize(width: 0, height: 5)
+            imageView.layer.shadowRadius = 4
             titleLabel.alpha = hidesTitleLabelWhenUnfocused ? 0 : 1
         }
     }

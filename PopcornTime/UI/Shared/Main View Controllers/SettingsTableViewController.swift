@@ -2,8 +2,10 @@
 
 import UIKit
 import class PopcornKit.TraktManager
+import class PopcornKit.APIManager
 import class PopcornKit.UpdateManager
 import protocol PopcornKit.TraktManagerDelegate
+
 
 class SettingsTableViewController: UITableViewController, TraktManagerDelegate {
     
@@ -74,16 +76,20 @@ class SettingsTableViewController: UITableViewController, TraktManagerDelegate {
             } else if indexPath.row == 5 {
                 cell.detailTextLabel?.text = subtitleSettings.encoding
             }
-        case 2 where indexPath.row == 0:
-            cell.detailTextLabel?.text = TraktManager.shared.isSignedIn() ? "Sign Out".localized : "Sign In".localized
-        case 3:
+        case 2:
             if indexPath.row == 1 {
+                cell.detailTextLabel?.text = TraktManager.shared.isSignedIn() ? "Sign Out".localized : "Sign In".localized
+            }
+        case 3:
+            if indexPath.row == 0 {
+                cell.detailTextLabel?.text = APIManager.getBaseUrl()
+            } else if indexPath.row == 2 {
                 var date = "Never".localized
                 if let lastChecked = UserDefaults.standard.object(forKey: "lastVersionCheckPerformedOnDate") as? Date {
                     date = DateFormatter.localizedString(from: lastChecked, dateStyle: .short, timeStyle: .short)
                 }
                 cell.detailTextLabel?.text = date
-            } else if indexPath.row == 2 {
+            } else if indexPath.row == 3 {
                 
                 let bundle = Bundle.main
                 let version = [bundle.object(forInfoDictionaryKey: "CFBundleShortVersionString"), bundle.object(forInfoDictionaryKey: "CFBundleVersion")].compactMap({$0 as? String}).joined(separator: ".")
@@ -290,23 +296,51 @@ class SettingsTableViewController: UITableViewController, TraktManagerDelegate {
                 
                 present(alertController, animated: true)
             }
-        case 2 where indexPath.row == 0 :
-            if TraktManager.shared.isSignedIn() {
-                let alert = UIAlertController(title: "Sign Out".localized, message: "Are you sure you want to Sign Out?".localized, preferredStyle: .alert)
-                
-                alert.addAction(UIAlertAction(title: "Sign Out".localized, style: .destructive, handler: { action in
-                    do { try TraktManager.shared.logout() } catch { }
-                    tableView.reloadData()
-                }))
+        case 2:
+            if indexPath.row == 0 {
+                let alert = UIAlertController(title: "Enter URL", message: nil, preferredStyle: .alert)
+
+                /// Add a text field to the alert controller
+                alert.addTextField { textField in
+                    textField.text = String(APIManager.getBaseUrl().dropFirst(8))
+                }
+
+                /// Create an action for the "OK" button and add the action to the alert controller
+                let okAction = UIAlertAction(title: "OK", style: .default) {  action in
+                    /// Retrieve the text from the text field
+                    if let newUrl = alert.textFields?.first,
+                        let enteredUrl = newUrl.text {
+                        /// Use the entered text as needed
+                        print("Entered data: \(enteredUrl)")
+                        APIManager.setBaseUrl("https://\(enteredUrl)")
+                        tableView.reloadData()
+                    }
+                }
+                alert.addAction(okAction)
                 alert.addAction(UIAlertAction(title: "Cancel".localized, style: .cancel, handler: nil))
+//                tableView.reloadData()
+
+                /// Present the alert controller
                 present(alert, animated: true)
-            } else {
-                TraktManager.shared.delegate = self
-                let vc = TraktManager.shared.loginViewController()
-                present(vc, animated: true)
+                
+            } else if indexPath.row == 1 {
+                if TraktManager.shared.isSignedIn() {
+                    let alert = UIAlertController(title: "Sign Out".localized, message: "Are you sure you want to Sign Out?".localized, preferredStyle: .alert)
+                    
+                    alert.addAction(UIAlertAction(title: "Sign Out".localized, style: .destructive, handler: { action in
+                        do { try TraktManager.shared.logout() } catch { }
+                        tableView.reloadData()
+                    }))
+                    alert.addAction(UIAlertAction(title: "Cancel".localized, style: .cancel, handler: nil))
+                    present(alert, animated: true)
+                } else {
+                    TraktManager.shared.delegate = self
+                    let vc = TraktManager.shared.loginViewController()
+                    present(vc, animated: true)
+                }
             }
         case 3:
-            if indexPath.row == 0 {
+            if indexPath.row == 1 {
                 let controller = UIAlertController(title: nil, message: nil, preferredStyle: .alert)
                 controller.addAction(UIAlertAction(title: "OK".localized, style: .cancel, handler: nil))
                 do {
@@ -325,7 +359,7 @@ class SettingsTableViewController: UITableViewController, TraktManagerDelegate {
                     controller.message = "Error cleaning cache.".localized
                 }
                 present(controller, animated: true)
-            } else if indexPath.row == 1 {
+            } else if indexPath.row == 2 {
                 let alert = UIAlertController(title: nil, message: nil, preferredStyle: .alert)
                 let contentViewController = UIStoryboard.main.instantiateViewController(withIdentifier: "CheckForUpdatesViewController")
                 alert.setValue(contentViewController, forKey: "contentViewController")

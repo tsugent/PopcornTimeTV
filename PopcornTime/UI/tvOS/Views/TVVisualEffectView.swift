@@ -67,7 +67,7 @@ import UIKit
         self.effect = blurEffect
     }
     
-    private func sharedSetup(effect: UIBlurEffect, radius: CGFloat = 90) {
+    private func sharedSetup(effect: UIBlurEffect, radius: CGFloat = 0) {
      
         let raw = effect.value(forKey: "_style") as! Int
         let style = UIBlurEffect.Style(rawValue: raw)!
