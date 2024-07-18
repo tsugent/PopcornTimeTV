@@ -2,6 +2,9 @@
   <img src="http://i.imgur.com/76RElTT.png" alt="Popcorn Time" title="Popcorn Time">
 </p>
 
+
+# THIS IS A FORK CREATED FOR MY OWN PERSONAL USE
+
 ## Popcorn Time for tvOS 16.2 and iOS 16.1 _WE ARE BACK_
 
 [![Platform](http://img.shields.io/badge/platform-iOS%20%7C%20tvOS-lightgrey.svg?style=flat)](https://github.com/PopcornTimeTV)

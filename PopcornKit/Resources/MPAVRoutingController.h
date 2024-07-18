@@ -1,7 +1,6 @@
 
-
 #import <Foundation/Foundation.h>
-#import "MPAVRoutingControllerDelegate.h"
+#import <PopcornKit/MPAVRoutingControllerDelegate.h>
 
 @class MPAVRoute;
 

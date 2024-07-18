@@ -6,19 +6,19 @@ source 'https://github.com/PopcornTimeTV/Specs'
 def pods
     pod 'PopcornTorrent', '~> 1.3.0'
     pod 'XCDYouTubeKit', '~> 2.8.0'
-    pod 'Alamofire', '~> 4.9.0'
-    pod 'AlamofireImage', '~> 3.5.0'
-    pod 'SwiftyTimer', '~> 2.1.0'
+    pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire', :branch => '4.9.0'
+    pod 'AlamofireImage', :git => 'https://github.com/Alamofire/AlamofireImage', :branch => '3.5.0'
+    pod 'SwiftyTimer', :git => 'https://github.com/radex/SwiftyTimer'
     pod 'FloatRatingView', '~> 3.0.1'
     pod 'Reachability', :git => 'https://github.com/tonymillion/Reachability'
-    pod 'MarqueeLabel', '~> 4.0.0'
-    pod 'ObjectMapper', '~> 3.5.0'
+    pod 'MarqueeLabel', :git => 'https://github.com/cbpowell/MarqueeLabel'
+    pod 'ObjectMapper', :git => 'https://github.com/tristanhimmelman/ObjectMapper'
 end
 
 target 'PopcornTimeiOS' do
     platform :ios, '11.0'
     pods
-    pod 'AlamofireNetworkActivityIndicator', '~> 2.4.0'
+    pod 'AlamofireNetworkActivityIndicator', :git => 'https://github.com/Alamofire/AlamofireNetworkActivityIndicator', :branch => '2.4.0'
     pod 'google-cast-sdk', '~> 4.4'
     pod 'OBSlider', '~> 1.1.1'
     pod '1PasswordExtension', '~> 1.8.4'
@@ -35,12 +35,12 @@ end
 
 target 'TopShelf' do
     platform :tvos, '11.0'
-    pod 'ObjectMapper', '~> 3.5.0'
+    pod 'ObjectMapper', :git => 'https://github.com/tristanhimmelman/ObjectMapper'
 end
 
 def kitPods
-    pod 'Alamofire', '~> 4.9.0'
-    pod 'ObjectMapper', '~> 3.5.0'
+    pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire', :branch => '4.9.0'
+    pod 'ObjectMapper', :git => 'https://github.com/tristanhimmelman/ObjectMapper'
     pod 'SwiftyJSON', '~> 5.0.0'
     pod 'Locksmith', '~> 4.0.0'
 end

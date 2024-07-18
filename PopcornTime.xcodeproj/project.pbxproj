@@ -3,15 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07663F0F7E6EA00F009CBEC4 /* Pods_PopcornTimeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0CE0698654DD9438A6CFB2 /* Pods_PopcornTimeiOS.framework */; };
-		0FC1E96F32C9524682B959F4 /* Pods_PopcornKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA80370986F9AFED490AD537 /* Pods_PopcornKit_iOS.framework */; };
+		071E40EF5482EB7DA4ABA6B2 /* Pods_PopcornTimeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBD09A6939CEA7D1539DAA6 /* Pods_PopcornTimeiOS.framework */; };
+		2BA9EC2B3E76240A719ED6BF /* Pods_PopcornKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56643C73180627A5477D6282 /* Pods_PopcornKit_tvOS.framework */; };
 		2E4B1E95252D818000187536 /* CustomBlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B1E94252D818000187536 /* CustomBlurEffect.swift */; };
 		2E4B1E9F252D825000187536 /* UIVisualEffect+effectSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B1E9E252D825000187536 /* UIVisualEffect+effectSettings.swift */; };
-		4AE98B91F909C34BCD60A851 /* Pods_PopcornTimetvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D92693A60D32B7994D9285D /* Pods_PopcornTimetvOS.framework */; };
 		4D0183A91DC3ACB500AB75B3 /* Locale+Langs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0183A81DC3ACB400AB75B3 /* Locale+Langs.swift */; };
 		4D07E17C1E8C364F00457FCB /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07E17B1E8C364F00457FCB /* Object.swift */; };
 		4D07E17D1E8C365200457FCB /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07E17B1E8C364F00457FCB /* Object.swift */; };
@@ -175,7 +174,7 @@
 		4D1B88AD1E3CAF6700DB701D /* UIAlertAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B88AC1E3CAF6700DB701D /* UIAlertAction+Extension.swift */; };
 		4D2543AE1DACFBFE00149533 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002682111CD0B76200F51D31 /* TVServices.framework */; };
 		4D2543B11DACFBFE00149533 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2543B01DACFBFE00149533 /* ServiceProvider.swift */; };
-		4D2543B51DACFBFE00149533 /* TopShelf.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D2543AD1DACFBFE00149533 /* TopShelf.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D2543B51DACFBFE00149533 /* TopShelf.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4D2543AD1DACFBFE00149533 /* TopShelf.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D29965F1EE35C4100737894 /* UIDownloadProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29965E1EE35C4100737894 /* UIDownloadProgressView.swift */; };
 		4D2996601EE35C4500737894 /* UIDownloadProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29965E1EE35C4100737894 /* UIDownloadProgressView.swift */; };
 		4D2996691EE4431800737894 /* DownloadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2996681EE4431800737894 /* DownloadTableViewCell.swift */; };
@@ -346,8 +345,10 @@
 		4DFA77201E7317B1007DB0E7 /* TVButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFA771F1E7317B1007DB0E7 /* TVButton.xib */; };
 		4DFC20941EED7B8200016BA2 /* MPMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC20931EED7B8200016BA2 /* MPMediaType.swift */; };
 		4DFC20951EED7B8200016BA2 /* MPMediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC20931EED7B8200016BA2 /* MPMediaType.swift */; };
+		80A31BD37D87CE16A1561E26 /* Pods_PopcornTimetvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF729B1FA0F315600A13B01 /* Pods_PopcornTimetvOS.framework */; };
 		C534A71E2A3EA4EB006B8A69 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534A71D2A3EA4EB006B8A69 /* APIManager.swift */; };
 		C534A71F2A3EA4EB006B8A69 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534A71D2A3EA4EB006B8A69 /* APIManager.swift */; };
+		CC17BF4252D7D29CB14C7E9C /* Pods_TopShelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D3E4BE16411AE1582EC685 /* Pods_TopShelf.framework */; };
 		D903FA102030CB1400180DBD /* PCTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903FA0F2030CB1400180DBD /* PCTPlayerViewController.swift */; };
 		D903FA112030CB1400180DBD /* PCTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903FA0F2030CB1400180DBD /* PCTPlayerViewController.swift */; };
 		D903FA122030D06000180DBD /* iOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBCCEF21E6815450066F1A7 /* iOS.storyboard */; };
@@ -372,8 +373,7 @@
 		D9D978D22024A7D70014BCB2 /* LoadExternalTorrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D978D12024A7D70014BCB2 /* LoadExternalTorrentViewController.swift */; };
 		D9E6CD542024C62C00D0DEF4 /* MoviesViewController+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6CD532024C62C00D0DEF4 /* MoviesViewController+iOS.swift */; };
 		D9E6CD562024C65200D0DEF4 /* ShowsViewController+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6CD552024C65200D0DEF4 /* ShowsViewController+iOS.swift */; };
-		ECFC6D4E813AD7DA057F0460 /* Pods_TopShelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE2B6555EC0ABDB2AA48552 /* Pods_TopShelf.framework */; };
-		EF281B13CBF1880103C6DA35 /* Pods_PopcornKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206AA8FA716D98BECFEBCA7D /* Pods_PopcornKit_tvOS.framework */; };
+		EE1FC09E2E0A681E9DCDB314 /* Pods_PopcornKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B17DE8BCF52A1193B13AC /* Pods_PopcornKit_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -436,15 +436,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0026821D1CD0B76300F51D31 /* Embed App Extensions */ = {
+		0026821D1CD0B76300F51D31 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4D2543B51DACFBFE00149533 /* TopShelf.appex in Embed App Extensions */,
+				4D2543B51DACFBFE00149533 /* TopShelf.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4D0F9D9D1E6F2F4D00860852 /* Embed Frameworks */ = {
@@ -473,16 +473,15 @@
 
 /* Begin PBXFileReference section */
 		002682111CD0B76200F51D31 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = System/Library/Frameworks/TVServices.framework; sourceTree = SDKROOT; };
-		1A61E463CD7628D200CEB803 /* Pods-TopShelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopShelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopShelf/Pods-TopShelf.release.xcconfig"; sourceTree = "<group>"; };
-		206AA8FA716D98BECFEBCA7D /* Pods_PopcornKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		287B85341C9873A200EEF5C8 /* PopcornTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopcornTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287B85401C9873A200EEF5C8 /* iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iOS.plist; sourceTree = "<group>"; };
-		2DE2B6555EC0ABDB2AA48552 /* Pods_TopShelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopShelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4B1E94252D818000187536 /* CustomBlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlurEffect.swift; sourceTree = "<group>"; };
 		2E4B1E9D252D81E300187536 /* CustomBlurEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBlurEffectView.h; sourceTree = "<group>"; };
 		2E4B1E9E252D825000187536 /* UIVisualEffect+effectSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVisualEffect+effectSettings.swift"; sourceTree = "<group>"; };
-		3D92693A60D32B7994D9285D /* Pods_PopcornTimetvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornTimetvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E11F9C404D0648A626B2311 /* Pods-PopcornTimetvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimetvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		30CFF0A92CC1DD7F6DED05D4 /* Pods-PopcornKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PopcornKit tvOS/Pods-PopcornKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3CFD60D7DDC5681218337207 /* Pods-PopcornTimetvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimetvOS.release.xcconfig"; path = "Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3F39EC9E2DC3386351E072CB /* Pods-PopcornKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit iOS.release.xcconfig"; path = "Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS.release.xcconfig"; sourceTree = "<group>"; };
+		474AF4F5356880761D692F8C /* Pods-PopcornKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit iOS.debug.xcconfig"; path = "Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4D0183A81DC3ACB400AB75B3 /* Locale+Langs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Langs.swift"; sourceTree = "<group>"; };
 		4D07E17B1E8C364F00457FCB /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		4D0AB54F1EB0D4CA003D2A3A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/iOSPlist.strings; sourceTree = "<group>"; };
@@ -749,17 +748,17 @@
 		4DFA771B1E731369007DB0E7 /* TVButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVButton.swift; sourceTree = "<group>"; };
 		4DFA771F1E7317B1007DB0E7 /* TVButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TVButton.xib; sourceTree = "<group>"; };
 		4DFC20931EED7B8200016BA2 /* MPMediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPMediaType.swift; sourceTree = "<group>"; };
-		57D1F839B5C2601A10C6E528 /* Pods-PopcornTimeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimeiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		629A53CA71488A540954223E /* Pods-PopcornKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6D6B36DCDACFFF36F3CFD9F2 /* Pods-TopShelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopShelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopShelf/Pods-TopShelf.debug.xcconfig"; sourceTree = "<group>"; };
-		6F0CE0698654DD9438A6CFB2 /* Pods_PopcornTimeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornTimeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BC03BFF33C6A45D899B6238 /* Pods-PopcornTimeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimeiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS.release.xcconfig"; sourceTree = "<group>"; };
-		861EA096EC99BB922794484B /* Pods-PopcornTimetvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimetvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS.release.xcconfig"; sourceTree = "<group>"; };
-		9C65D6153AF850B397C1F6ED /* Pods-PopcornKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornKit tvOS/Pods-PopcornKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B5E9279D6F843D45303644E3 /* Pods-PopcornKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornKit tvOS/Pods-PopcornKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		BC6206DE29909518F7303456 /* Pods-PopcornKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS.release.xcconfig"; sourceTree = "<group>"; };
+		50C3BBD37EDCA59759069AD3 /* Pods-PopcornTimeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimeiOS.debug.xcconfig"; path = "Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		52B3F8694D4ED9034B3F8389 /* Pods-PopcornTimeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimeiOS.release.xcconfig"; path = "Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS.release.xcconfig"; sourceTree = "<group>"; };
+		56643C73180627A5477D6282 /* Pods_PopcornKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF729B1FA0F315600A13B01 /* Pods_PopcornTimetvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornTimetvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8037D05E4B103234AE231D81 /* Pods-TopShelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopShelf.release.xcconfig"; path = "Target Support Files/Pods-TopShelf/Pods-TopShelf.release.xcconfig"; sourceTree = "<group>"; };
+		8CBD09A6939CEA7D1539DAA6 /* Pods_PopcornTimeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornTimeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA206CC0C3C9EBD3E775D9DD /* Pods-TopShelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopShelf.debug.xcconfig"; path = "Target Support Files/Pods-TopShelf/Pods-TopShelf.debug.xcconfig"; sourceTree = "<group>"; };
 		C534A71D2A3EA4EB006B8A69 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = PopcornKit/Managers/APIManager.swift; sourceTree = SOURCE_ROOT; };
-		CA80370986F9AFED490AD537 /* Pods_PopcornKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EA3A8EAB2C6E9064078FF0 /* Pods-PopcornKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornKit tvOS.release.xcconfig"; path = "Target Support Files/Pods-PopcornKit tvOS/Pods-PopcornKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D36598A6F4C000E545628D10 /* Pods-PopcornTimetvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTimetvOS.debug.xcconfig"; path = "Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D6D3E4BE16411AE1582EC685 /* Pods_TopShelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopShelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D903FA0F2030CB1400180DBD /* PCTPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PCTPlayerViewController.swift; path = "View Controllers/PCTPlayerViewController.swift"; sourceTree = "<group>"; };
 		D90FB5FC20D670B200CD141F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		D91AAC99206C2F3C003DA002 /* SubtitleHashGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubtitleHashGenerator.swift; path = ../../PopcornKit/Resources/SubtitleHashGenerator.swift; sourceTree = "<group>"; };
@@ -812,6 +811,7 @@
 		D9D978D12024A7D70014BCB2 /* LoadExternalTorrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadExternalTorrentViewController.swift; path = Views/LoadExternalTorrentViewController.swift; sourceTree = "<group>"; };
 		D9E6CD532024C62C00D0DEF4 /* MoviesViewController+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoviesViewController+iOS.swift"; sourceTree = "<group>"; };
 		D9E6CD552024C65200D0DEF4 /* ShowsViewController+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowsViewController+iOS.swift"; sourceTree = "<group>"; };
+		EA5B17DE8BCF52A1193B13AC /* Pods_PopcornKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -822,7 +822,7 @@
 				4D9CED391DD278F1005ABC0A /* libiconv.tbd in Frameworks */,
 				4D9CED371DD278BD005ABC0A /* libc++.tbd in Frameworks */,
 				4D0F9D391E6F29E500860852 /* PopcornKit.framework in Frameworks */,
-				4AE98B91F909C34BCD60A851 /* Pods_PopcornTimetvOS.framework in Frameworks */,
+				80A31BD37D87CE16A1561E26 /* Pods_PopcornTimetvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -830,7 +830,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF281B13CBF1880103C6DA35 /* Pods_PopcornKit_tvOS.framework in Frameworks */,
+				2BA9EC2B3E76240A719ED6BF /* Pods_PopcornKit_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,7 +839,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90FB5FD20D670B200CD141F /* MediaPlayer.framework in Frameworks */,
-				0FC1E96F32C9524682B959F4 /* Pods_PopcornKit_iOS.framework in Frameworks */,
+				EE1FC09E2E0A681E9DCDB314 /* Pods_PopcornKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,7 +849,7 @@
 			files = (
 				4D0F9DC71E6F32B300860852 /* PopcornKit.framework in Frameworks */,
 				4D2543AE1DACFBFE00149533 /* TVServices.framework in Frameworks */,
-				ECFC6D4E813AD7DA057F0460 /* Pods_TopShelf.framework in Frameworks */,
+				CC17BF4252D7D29CB14C7E9C /* Pods_TopShelf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,7 +858,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0F9D981E6F2F4D00860852 /* PopcornKit.framework in Frameworks */,
-				07663F0F7E6EA00F009CBEC4 /* Pods_PopcornTimeiOS.framework in Frameworks */,
+				071E40EF5482EB7DA4ABA6B2 /* Pods_PopcornTimeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -902,7 +902,7 @@
 				287B85351C9873A200EEF5C8 /* Products */,
 				4D0F9CFB1E6F282000860852 /* PopcornKit */,
 				4D2543AF1DACFBFE00149533 /* TopShelf */,
-				3ABE4453DD6CB32FAEF419D4 /* Pods */,
+				28B7FB0145C0CC5CAC2CA8EB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -951,6 +951,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		28B7FB0145C0CC5CAC2CA8EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				474AF4F5356880761D692F8C /* Pods-PopcornKit iOS.debug.xcconfig */,
+				3F39EC9E2DC3386351E072CB /* Pods-PopcornKit iOS.release.xcconfig */,
+				30CFF0A92CC1DD7F6DED05D4 /* Pods-PopcornKit tvOS.debug.xcconfig */,
+				D0EA3A8EAB2C6E9064078FF0 /* Pods-PopcornKit tvOS.release.xcconfig */,
+				50C3BBD37EDCA59759069AD3 /* Pods-PopcornTimeiOS.debug.xcconfig */,
+				52B3F8694D4ED9034B3F8389 /* Pods-PopcornTimeiOS.release.xcconfig */,
+				D36598A6F4C000E545628D10 /* Pods-PopcornTimetvOS.debug.xcconfig */,
+				3CFD60D7DDC5681218337207 /* Pods-PopcornTimetvOS.release.xcconfig */,
+				BA206CC0C3C9EBD3E775D9DD /* Pods-TopShelf.debug.xcconfig */,
+				8037D05E4B103234AE231D81 /* Pods-TopShelf.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		28EB626A1CA3362B00985F78 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -993,23 +1010,6 @@
 				4DCCBA5A1DC50D780046C755 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		3ABE4453DD6CB32FAEF419D4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				57D1F839B5C2601A10C6E528 /* Pods-PopcornTimeiOS.debug.xcconfig */,
-				7BC03BFF33C6A45D899B6238 /* Pods-PopcornTimeiOS.release.xcconfig */,
-				3E11F9C404D0648A626B2311 /* Pods-PopcornTimetvOS.debug.xcconfig */,
-				861EA096EC99BB922794484B /* Pods-PopcornTimetvOS.release.xcconfig */,
-				6D6B36DCDACFFF36F3CFD9F2 /* Pods-TopShelf.debug.xcconfig */,
-				1A61E463CD7628D200CEB803 /* Pods-TopShelf.release.xcconfig */,
-				629A53CA71488A540954223E /* Pods-PopcornKit iOS.debug.xcconfig */,
-				BC6206DE29909518F7303456 /* Pods-PopcornKit iOS.release.xcconfig */,
-				9C65D6153AF850B397C1F6ED /* Pods-PopcornKit tvOS.debug.xcconfig */,
-				B5E9279D6F843D45303644E3 /* Pods-PopcornKit tvOS.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		4D0F9CFB1E6F282000860852 /* PopcornKit */ = {
@@ -1578,11 +1578,11 @@
 				4D9CED381DD278F1005ABC0A /* libiconv.tbd */,
 				4D9CED361DD278BD005ABC0A /* libc++.tbd */,
 				002682111CD0B76200F51D31 /* TVServices.framework */,
-				CA80370986F9AFED490AD537 /* Pods_PopcornKit_iOS.framework */,
-				206AA8FA716D98BECFEBCA7D /* Pods_PopcornKit_tvOS.framework */,
-				6F0CE0698654DD9438A6CFB2 /* Pods_PopcornTimeiOS.framework */,
-				3D92693A60D32B7994D9285D /* Pods_PopcornTimetvOS.framework */,
-				2DE2B6555EC0ABDB2AA48552 /* Pods_TopShelf.framework */,
+				EA5B17DE8BCF52A1193B13AC /* Pods_PopcornKit_iOS.framework */,
+				56643C73180627A5477D6282 /* Pods_PopcornKit_tvOS.framework */,
+				8CBD09A6939CEA7D1539DAA6 /* Pods_PopcornTimeiOS.framework */,
+				7FF729B1FA0F315600A13B01 /* Pods_PopcornTimetvOS.framework */,
+				D6D3E4BE16411AE1582EC685 /* Pods_TopShelf.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1621,13 +1621,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287B85431C9873A200EEF5C8 /* Build configuration list for PBXNativeTarget "PopcornTimetvOS" */;
 			buildPhases = (
-				FBB7CE8F6A44F576C033AC84 /* [CP] Check Pods Manifest.lock */,
+				EB2EE6D843E6494308EB28B9 /* [CP] Check Pods Manifest.lock */,
 				287B85301C9873A200EEF5C8 /* Sources */,
 				287B85311C9873A200EEF5C8 /* Frameworks */,
 				287B85321C9873A200EEF5C8 /* Resources */,
-				0026821D1CD0B76300F51D31 /* Embed App Extensions */,
+				0026821D1CD0B76300F51D31 /* Embed Foundation Extensions */,
 				92CF49871CE668A100D666A8 /* Embed Frameworks */,
-				5B3ABEBD998E9EE7ACDF64F1 /* [CP] Embed Pods Frameworks */,
+				A1A256395C7A1C94DF76BAFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1644,7 +1644,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D0F9D3B1E6F29E500860852 /* Build configuration list for PBXNativeTarget "PopcornKit tvOS" */;
 			buildPhases = (
-				FA01AD28C9D4C74677E8A8B0 /* [CP] Check Pods Manifest.lock */,
+				37BA5AFDF4B2D4B9AC38C6A1 /* [CP] Check Pods Manifest.lock */,
 				4D0F9D2D1E6F29E500860852 /* Sources */,
 				4D0F9D2E1E6F29E500860852 /* Frameworks */,
 				4D0F9D2F1E6F29E500860852 /* Headers */,
@@ -1663,12 +1663,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D0F9D9A1E6F2F4D00860852 /* Build configuration list for PBXNativeTarget "PopcornKit iOS" */;
 			buildPhases = (
-				A88890197AEA8FCD9A9C522A /* [CP] Check Pods Manifest.lock */,
+				AD97A0CC8D90E96AAF33FD1A /* [CP] Check Pods Manifest.lock */,
 				4D0F9D8C1E6F2F4D00860852 /* Sources */,
 				4D0F9D8D1E6F2F4D00860852 /* Frameworks */,
 				4D0F9D8E1E6F2F4D00860852 /* Headers */,
 				4D0F9D8F1E6F2F4D00860852 /* Resources */,
-				65345E90C3A7DA55FE016A81 /* [CP] Copy Pods Resources */,
+				2B9767FEA29CAE74CEFDA2BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1683,7 +1683,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D2543B61DACFBFE00149533 /* Build configuration list for PBXNativeTarget "TopShelf" */;
 			buildPhases = (
-				A08FB9E8B33B7A524FED53E0 /* [CP] Check Pods Manifest.lock */,
+				D5767A05C404DEF9165BD0F4 /* [CP] Check Pods Manifest.lock */,
 				4D2543A91DACFBFE00149533 /* Sources */,
 				4D2543AA1DACFBFE00149533 /* Frameworks */,
 				4D2543AB1DACFBFE00149533 /* Resources */,
@@ -1702,13 +1702,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D689A261DD88E17001D1318 /* Build configuration list for PBXNativeTarget "PopcornTimeiOS" */;
 			buildPhases = (
-				CF1796BD0220AA7E93DB9347 /* [CP] Check Pods Manifest.lock */,
+				4CAF24768ECE8B96E96695DF /* [CP] Check Pods Manifest.lock */,
 				4D689A131DD88E17001D1318 /* Sources */,
 				4D689A141DD88E17001D1318 /* Frameworks */,
 				4D689A151DD88E17001D1318 /* Resources */,
 				4D0F9D9D1E6F2F4D00860852 /* Embed Frameworks */,
-				32EA7C440C5E676C79CC8B43 /* [CP] Embed Pods Frameworks */,
-				2ADCE11CDBFED967A07AC3BB /* [CP] Copy Pods Resources */,
+				2C60DA1DCE13BB4698019BC7 /* [CP] Embed Pods Frameworks */,
+				53085380A6980A7309502E05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1798,9 +1798,10 @@
 		287B852C1C9873A200EEF5C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				CLASSPREFIX = PCT;
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = PopcornTime;
 				TargetAttributes = {
 					287B85331C9873A200EEF5C8 = {
@@ -2007,15 +2008,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2ADCE11CDBFED967A07AC3BB /* [CP] Copy Pods Resources */ = {
+		2B9767FEA29CAE74CEFDA2BE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.5.0_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.5.0_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.6.1_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.6.1_static/GoogleCast.framework/GoogleCastUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -2024,23 +2025,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		32EA7C440C5E676C79CC8B43 /* [CP] Embed Pods Frameworks */ = {
+		2C60DA1DCE13BB4698019BC7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/1PasswordExtension/OnePasswordExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage-iOS/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
 				"${BUILT_PRODUCTS_DIR}/FloatRatingView-iOS/FloatRatingView.framework",
 				"${BUILT_PRODUCTS_DIR}/GCDWebServer-iOS/GCDWebServer.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/MarqueeLabel-iOS/MarqueeLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/OBSlider/OBSlider.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
@@ -2060,7 +2060,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FloatRatingView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OBSlider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
@@ -2074,16 +2073,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5B3ABEBD998E9EE7ACDF64F1 /* [CP] Embed Pods Frameworks */ = {
+		37BA5AFDF4B2D4B9AC38C6A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopcornKit tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CAF24768ECE8B96E96695DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopcornTimeiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53085380A6980A7309502E05 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.6.1_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.6.1_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A256395C7A1C94DF76BAFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage-tvOS/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FloatRatingView-tvOS/FloatRatingView.framework",
@@ -2118,52 +2181,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		65345E90C3A7DA55FE016A81 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.5.0_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.5.0_static/GoogleCast.framework/GoogleCastUIResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A08FB9E8B33B7A524FED53E0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TopShelf-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A88890197AEA8FCD9A9C522A /* [CP] Check Pods Manifest.lock */ = {
+		AD97A0CC8D90E96AAF33FD1A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2185,7 +2206,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF1796BD0220AA7E93DB9347 /* [CP] Check Pods Manifest.lock */ = {
+		D5767A05C404DEF9165BD0F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2200,36 +2221,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PopcornTimeiOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TopShelf-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA01AD28C9D4C74677E8A8B0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PopcornKit tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FBB7CE8F6A44F576C033AC84 /* [CP] Check Pods Manifest.lock */ = {
+		EB2EE6D843E6494308EB28B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2879,7 +2878,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2930,7 +2929,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2950,8 +2949,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
@@ -2959,7 +2959,7 @@
 		};
 		287B85441C9873A200EEF5C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E11F9C404D0648A626B2311 /* Pods-PopcornTimetvOS.debug.xcconfig */;
+			baseConfigurationReference = D36598A6F4C000E545628D10 /* Pods-PopcornTimetvOS.debug.xcconfig */;
 			buildSettings = {
 				"ARCHS[sdk=appletvsimulator*]" = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -2970,13 +2970,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 82PRR886CX;
+				DEVELOPMENT_TEAM = 9YCULH376P;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTime/Supporting Files/tvOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntime181.tvos;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonysugent.popcorntime181.tvos;
 				PRODUCT_NAME = PopcornTime;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -2990,7 +2993,7 @@
 		};
 		287B85451C9873A200EEF5C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 861EA096EC99BB922794484B /* Pods-PopcornTimetvOS.release.xcconfig */;
+			baseConfigurationReference = 3CFD60D7DDC5681218337207 /* Pods-PopcornTimetvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2999,13 +3002,16 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 82PRR886CX;
+				DEVELOPMENT_TEAM = 9YCULH376P;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTime/Supporting Files/tvOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntime181.tvos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonysugent.popcorntime181.tvos;
 				PRODUCT_NAME = PopcornTime;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = "compile-time";
@@ -3018,7 +3024,7 @@
 		};
 		4D0F9D3C1E6F29E500860852 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C65D6153AF850B397C1F6ED /* Pods-PopcornKit tvOS.debug.xcconfig */;
+			baseConfigurationReference = 30CFF0A92CC1DD7F6DED05D4 /* Pods-PopcornKit tvOS.debug.xcconfig */;
 			buildSettings = {
 				"ARCHS[sdk=appletvsimulator*]" = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -3035,6 +3041,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -3042,8 +3049,14 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/PopcornKit.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcornkit;
 				PRODUCT_NAME = PopcornKit;
 				SKIP_INSTALL = YES;
@@ -3058,7 +3071,7 @@
 		};
 		4D0F9D3D1E6F29E500860852 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E9279D6F843D45303644E3 /* Pods-PopcornKit tvOS.release.xcconfig */;
+			baseConfigurationReference = D0EA3A8EAB2C6E9064078FF0 /* Pods-PopcornKit tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3073,10 +3086,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/PopcornKit.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcornkit;
 				PRODUCT_NAME = PopcornKit;
@@ -3091,7 +3111,7 @@
 		};
 		4D0F9D9B1E6F2F4D00860852 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629A53CA71488A540954223E /* Pods-PopcornKit iOS.debug.xcconfig */;
+			baseConfigurationReference = 474AF4F5356880761D692F8C /* Pods-PopcornKit iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3106,6 +3126,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -3114,8 +3135,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/PopcornKit.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcornkit;
 				PRODUCT_NAME = PopcornKit;
 				SDKROOT = iphoneos;
@@ -3131,7 +3158,7 @@
 		};
 		4D0F9D9C1E6F2F4D00860852 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC6206DE29909518F7303456 /* Pods-PopcornKit iOS.release.xcconfig */;
+			baseConfigurationReference = 3F39EC9E2DC3386351E072CB /* Pods-PopcornKit iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3145,11 +3172,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "$(SRCROOT)/PopcornKit/Supporting Files/PopcornKit.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcornkit;
 				PRODUCT_NAME = PopcornKit;
 				SDKROOT = iphoneos;
@@ -3164,7 +3198,7 @@
 		};
 		4D2543B71DACFBFE00149533 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D6B36DCDACFFF36F3CFD9F2 /* Pods-TopShelf.debug.xcconfig */;
+			baseConfigurationReference = BA206CC0C3C9EBD3E775D9DD /* Pods-TopShelf.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"ARCHS[sdk=appletvsimulator*]" = "$(ARCHS_STANDARD)";
@@ -3175,7 +3209,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82PRR886CX;
+				DEVELOPMENT_TEAM = 9YCULH376P;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -3184,22 +3218,25 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = TopShelf/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntime181.tvos.TopShelf;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonysugent.popcorntime181.tvos.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
-				VALID_ARCHS = $ARCHS_STANDARD;
+				VALID_ARCHS = "$ARCHS_STANDARD";
 			};
 			name = Debug;
 		};
 		4D2543B81DACFBFE00149533 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A61E463CD7628D200CEB803 /* Pods-TopShelf.release.xcconfig */;
+			baseConfigurationReference = 8037D05E4B103234AE231D81 /* Pods-TopShelf.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3209,26 +3246,30 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82PRR886CX;
+				DEVELOPMENT_TEAM = 9YCULH376P;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = TopShelf/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntime181.tvos.TopShelf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonysugent.popcorntime181.tvos.TopShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
-				VALID_ARCHS = $ARCHS_STANDARD;
+				VALID_ARCHS = "$ARCHS_STANDARD";
 			};
 			name = Release;
 		};
 		4D689A271DD88E17001D1318 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57D1F839B5C2601A10C6E528 /* Pods-PopcornTimeiOS.debug.xcconfig */;
+			baseConfigurationReference = 50C3BBD37EDCA59759069AD3 /* Pods-PopcornTimeiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3240,7 +3281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 82PRR886CX;
+				DEVELOPMENT_TEAM = 9YCULH376P;
 				ENABLE_BITCODE = NO;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
@@ -3249,9 +3290,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTime/Supporting Files/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntime181.ios;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonysugent.popcorntime181.ios;
 				PRODUCT_NAME = PopcornTime;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -3266,7 +3310,7 @@
 		};
 		4D689A281DD88E17001D1318 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BC03BFF33C6A45D899B6238 /* Pods-PopcornTimeiOS.release.xcconfig */;
+			baseConfigurationReference = 52B3F8694D4ED9034B3F8389 /* Pods-PopcornTimeiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3277,14 +3321,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 82PRR886CX;
+				DEVELOPMENT_TEAM = 9YCULH376P;
 				ENABLE_BITCODE = NO;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTime/Supporting Files/iOS.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popcorntimetv.popcorntime181.ios;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonysugent.popcorntime181.ios;
 				PRODUCT_NAME = PopcornTime;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -3322,7 +3369,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Popcorn TimeUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -3353,7 +3404,11 @@
 				DEVELOPMENT_TEAM = 9ZG5XWBLSB;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Tests/Popcorn TimeUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -3391,7 +3446,11 @@
 				);
 				INFOPLIST_FILE = "Tests/Popcorn TimeiOSUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimeiOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3424,7 +3483,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Tests/Popcorn TimeiOSUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimeiOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3463,7 +3526,11 @@
 				);
 				INFOPLIST_FILE = "Tests/Popcorn TimeiOSTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimeiOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3497,7 +3564,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Tests/Popcorn TimeiOSTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimeiOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3536,7 +3607,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Popcorn TimetvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimetvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3570,7 +3645,11 @@
 				DEVELOPMENT_TEAM = 9ZG5XWBLSB;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Tests/Popcorn TimetvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popcorntimetv.Popcorn-TimetvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
